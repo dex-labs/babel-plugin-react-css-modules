@@ -9,7 +9,7 @@
     "@babel/types": "^7.11",
     "ajv": "^6.12",
     "ajv-keywords": "^3.5",
-    "generic-names": "^2.0.1",
+    "generic-names": "^3.0.0",
     "postcss": "^8.0.3",
     "postcss-modules": "^3.0",
     "postcss-modules-extract-imports": "^2.0",
