@@ -4,7 +4,7 @@
     "@babel/core": "^7.26.10",
     "@babel/plugin-syntax-jsx": "^7.24.6",
     "@babel/types": "^7.27.0",
-    "@dr.pogodin/postcss-modules-parser": "^1.2.10",
+    "@dr.pogodin/postcss-modules-parser": "1.2.10",
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.0.0",
     "cssesc": "^3.0.0",
