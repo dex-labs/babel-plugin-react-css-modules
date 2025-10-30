@@ -56,7 +56,12 @@ const getTokens = (extraPluginsRunner, runner, cssSourceFilePath, filetypeOption
   if (filetypeOptions) {
     options.syntax = getSyntax(filetypeOptions);
   }
-  let res = (0, _fs.readFileSync)(cssSourceFilePath, 'utf-8');
+  let res;
+  try {
+      res = (0, _fs.readFileSync)(cssSourceFilePath, "utf-8");
+  } catch (e) {
+      res = "";
+  }
   if (pluginOptions.transform) {
     res = pluginOptions.transform(res, cssSourceFilePath, pluginOptions);
   }
